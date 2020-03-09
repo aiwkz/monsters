@@ -8,8 +8,7 @@ const Card = props => (
             src={`https://robohash.org/${props.monster.id}?set=set2&size=180x180`} 
         />
         <h2> {props.monster.name} </h2>
-        <h3> User: {props.monster.username} </h3>
-        <h3> Email: {props.monster.email} </h3>
+        <p> {props.monster.email} </p>
     </div>
 );
 
