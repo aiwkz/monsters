@@ -6,6 +6,8 @@
   border-radius: 5px;
   padding: 25px;
   cursor: pointer;
+  align-items: center;
+  justify-content: center;
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translateZ(0);
